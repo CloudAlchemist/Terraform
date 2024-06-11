@@ -7,7 +7,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID to use for the instance"
   type        = string
-  default     = "ami-0b287aaaab87c114d"
+  default     = "ami-id"
 }
 
 variable "vpc_id" {
@@ -28,7 +28,7 @@ variable "security_group_ids" {
 variable "key_name" {
   description = "The key pair name to use for the instance"
   type        = string
-  default     = "DB-POC"
+  default     = "pemfile"
 }
 
 variable "domain_name" {
