@@ -1,15 +1,18 @@
+Organize your Terraform project files for clarity and maintainability:
 
-Directory Structure
-.
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-└── modules
-    └── ec2
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
+| File/Directory       |
+|----------------------|
+| .                    |
+| ├── main.tf          |
+| ├── variables.tf     |
+| ├── outputs.tf       |
+| ├── terraform.tfvars |
+| └── modules          |
+|     └── ec2          |
+|         ├── main.tf  |
+|         ├── variables.tf |
+|         └── outputs.tf   |
+
 
 
 Documentation
