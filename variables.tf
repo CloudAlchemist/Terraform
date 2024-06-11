@@ -30,3 +30,21 @@ variable "key_name" {
   type        = string
   default     = "DB-POC"
 }
+
+variable "domain_name" {
+  description = "The name of the CodeArtifact domain"
+  type        = string
+  default     = "devops"
+}
+
+variable "repository_name" {
+  description = "The name of the CodeArtifact repository"
+  type        = string
+  default     = "python"
+}
+
+variable "external_connection" {
+  description = "The external connection name for the repository"
+  type        = string
+  default     = "public:npmjs"
+}
